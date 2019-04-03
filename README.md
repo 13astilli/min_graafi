@@ -1,6 +1,11 @@
 # minimi_virit_graafi
-
-FIXME: description
+Ohjelmassa luetaan koordinaatit tiedostosta pisteet_data.txt. Pisteet ovat tiedostossa muodossa:
+;1,2
+0,0
+15,18
+Missä yhden pisteen koordinaatit ovat yhdellä rivillä ja rivin ensimmäinen luku on x-koordinaatin arvo ja toinen luku y-koordinaatin arvo.
+Ohjelmassa oletetaan, että kaikkien pisteiden välillä on kaari. Näistä kaarista valitaan kaaria, siten että syntyy minimi virittävä graafi, jonka tiedot tulostetaan
+tiedostoon min-virit-graafi.txt.
 
 ## Installation
 
