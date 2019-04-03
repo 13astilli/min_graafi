@@ -139,7 +139,7 @@
 ;Syötteen oletetaan olevan muotoa 
 ;[{:distance luku, :lahto 0, :loppu 1} {:distance luku :lahto 0, :loppu 2}... {:distance luku, :lahto 1, :loppu 2} {:distance luku, :lahto 1, :loppu 3}...]
 (defn minimi-graafi
-  "Muodostaa minimi virittävän graafin syötteestä"
+  "Muodostaa minimi virittävän graafin syötteenä olevasta sekvenssistä. Eli muodostaa pienimmän virittävän puun"
     ([sekvenssi listan-pituus] ;listan pituus tarkoittaa graafin pisteiden määrää
      (let [x (apply min-key :distance sekvenssi)] ;valitaan lyhin kaari
        (minimi-graafi 
