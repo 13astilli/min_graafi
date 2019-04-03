@@ -1,0 +1,18 @@
+Järjestysnumero:0 || koordinaatit: x:15 y:20
+Järjestysnumero:1 || koordinaatit: x:10 y:3
+Järjestysnumero:2 || koordinaatit: x:8 y:9
+Järjestysnumero:3 || koordinaatit: x:18 y:19
+Järjestysnumero:4 || koordinaatit: x:3 y:2
+Järjestysnumero:5 || koordinaatit: x:1 y:1
+Järjestysnumero:6 || koordinaatit: x:20 y:25
+Järjestysnumero:7 || koordinaatit: x:4 y:6
+Järjestysnumero:8 || koordinaatit: x:7 y:10
+
+Lähtopiste: järjestysnumero:2 x-koordi:8 y-koordi:9 || Loppupiste: järjestysnumero:8 x-koordi:7 y-koordi:10 || Pisteiden välinen etäisyys:1.4142135623730951
+Lähtopiste: järjestysnumero:2 x-koordi:8 y-koordi:9 || Loppupiste: järjestysnumero:7 x-koordi:4 y-koordi:6 || Pisteiden välinen etäisyys:5.0
+Lähtopiste: järjestysnumero:4 x-koordi:3 y-koordi:2 || Loppupiste: järjestysnumero:7 x-koordi:4 y-koordi:6 || Pisteiden välinen etäisyys:4.123105625617661
+Lähtopiste: järjestysnumero:4 x-koordi:3 y-koordi:2 || Loppupiste: järjestysnumero:5 x-koordi:1 y-koordi:1 || Pisteiden välinen etäisyys:2.23606797749979
+Lähtopiste: järjestysnumero:1 x-koordi:10 y-koordi:3 || Loppupiste: järjestysnumero:2 x-koordi:8 y-koordi:9 || Pisteiden välinen etäisyys:6.324555320336759
+Lähtopiste: järjestysnumero:0 x-koordi:15 y-koordi:20 || Loppupiste: järjestysnumero:8 x-koordi:7 y-koordi:10 || Pisteiden välinen etäisyys:12.806248474865697
+Lähtopiste: järjestysnumero:0 x-koordi:15 y-koordi:20 || Loppupiste: järjestysnumero:3 x-koordi:18 y-koordi:19 || Pisteiden välinen etäisyys:3.1622776601683795
+Lähtopiste: järjestysnumero:3 x-koordi:18 y-koordi:19 || Loppupiste: järjestysnumero:6 x-koordi:20 y-koordi:25 || Pisteiden välinen etäisyys:6.324555320336759
