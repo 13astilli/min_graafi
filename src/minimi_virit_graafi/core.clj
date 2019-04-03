@@ -133,24 +133,7 @@
   [sekvenssi joukko]
   (apply min-key :distance (mahdolliset-kaaret (kaarien-poisto sekvenssi joukko) joukko)))
 
-;(defn minimi-graafi
-  ;"Muodostaa minimi virittävä graafin syötteestä"
-    ;([sekvenssi listan-pituus] ;listan pituus tarkoittaa graafin pisteiden määrää
-     ;(let [x (apply min-key :distance sekvenssi)] ;valitaan lyhin kaari
-       ;(minimi-graafi 
-         ;sekvenssi 
-         ;(conj #{} (x :lahto) (x :loppu)) ;lisätään käytyjen pisteiden indeksit
-         ;(- listan-pituus 1) 
-         ;(conj [] x)
-    ;([sekvenssi joukko laskuri tulos]
-     ;(if
-       ;(= 1 laskuri) ;lisätään kaaria kunnes ollaan lisätty listan-pituus-1 kaarta
-       ;tulos
-       ;(minimi-graafi
-         ;sekvenssi
-         ;(conj joukko (:lahto (seuraavaksi-add sekvenssi joukko)) (:loppu (seuraavaksi-add sekvenssi joukko))) ;lisätään seuraavaksi lisättävän pisteen indeksit
-         ;(- laskuri 1)
-         ;(conj tulos (seuraavaksi-add sekvenssi joukko))))
+
 
 ;Syötteen oletetaan sisältävän kaikki graafin kaaret ja niiden etäisyydet.
 ;Syötteen oletetaan olevan muotoa 
